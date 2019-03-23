@@ -1,9 +1,13 @@
-.header {
+html {
+  font-family: "Noto Serif", serif;
+}
+
+header {
   color: #fff;
   background-color: #70ad55;
 }
 
-.footer {
+footer {
   color: #fff;
   background-color: #70ad55;
 }
@@ -11,5 +15,26 @@
 .btn {
   color: #fff;
   background-color: #6e8c62;
-  border: none;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-color: #6e8c62;
+}
+
+span {
+  color: #6e8c62;
+}
+
+hr {
+  margin-left: .5em;
+  margin-right: .5em;
+  border-color: #70ad55;
+  border-width: 1px;
+}
+
+fieldset {
+  border: 0;
+}
+
+input, select {
+  border-color: #6e8c62;
 }
